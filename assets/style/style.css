@@ -37,6 +37,21 @@ a:hover {
   border-color: var(--primary);
 }
 
+a.clicked{
+  color: var(--secondary);
+}
+
+section a.clicked {
+  background-color: var(--highlight-secondary); /* Kleur na klik */
+}
+
+section a.dbclicked {
+  background-color: red;
+}
+
+section a.longpress{
+  background-color: var(--highlight-primary);
+}
 /* UI Event Classes */
 
 /* Jump animation on the interaction link */
