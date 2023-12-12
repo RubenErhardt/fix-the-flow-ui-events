@@ -33,27 +33,4 @@ document.querySelectorAll('section a').forEach(function(link) {
   });
 });
 
-document.querySelectorAll('section a').forEach(function(link) {
-  let pressTimer;
 
-  link.addEventListener('mousedown', function() {
-    pressTimer = setTimeout(function() {
-      link.classList.toggle('longpressed');
-    }, 1000); // Set your desired duration (in milliseconds) for a long press
-  });
-
-  link.addEventListener('mouseup', function() {
-    clearTimeout(pressTimer);
-  });
-
-  // Handle touch events for mobile devices
-  link.addEventListener('touchstart', function() {
-    pressTimer = setTimeout(function() {
-      link.classList.toggle('longpressed');
-    }, 1000); // Set your desired duration (in milliseconds) for a long press
-  });
-
-  link.addEventListener('touchend', function() {
-    clearTimeout(pressTimer);
-  });
-});

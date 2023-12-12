@@ -49,9 +49,6 @@ section a.dbclicked {
   background-color: red;
 }
 
-section a.longpress{
-  background-color: var(--highlight-primary);
-}
 /* UI Event Classes */
 
 /* Jump animation on the interaction link */
