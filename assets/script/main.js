@@ -33,4 +33,4 @@ document.querySelectorAll('section a').forEach(function(link) {
   });
 });
 
-
+//uitleggen 1.4.3
