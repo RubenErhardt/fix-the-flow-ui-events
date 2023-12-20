@@ -90,12 +90,10 @@ a:nth-of-type(12) {
   }
 }
 
-/* Voeg deze CSS-regels toe aan je stijlblad */
+
 .grow {
-  transform: scale(1.1); /* Voeg hier je gewenste groeieffect toe */
-  transition: transform 0.3s ease; /* Voeg hier je gewenste overgang toe */
+  transform: scale(1.1); 
+  transition: transform 0.3s ease; 
 }
 
-
-/* Jouw animaties */
 
